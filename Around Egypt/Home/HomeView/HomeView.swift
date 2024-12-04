@@ -131,9 +131,15 @@ struct ExperienceCard: View {
                             .font(.custom("GothamMedium", size: 14))
                             .foregroundColor(.white)
                         Spacer()
-                        Text("\(likes) ")
-                            .font(.custom("GothamMedium", size: 14))
-                            .foregroundColor(.black)
+                        HStack {
+                            Text("\(likes)") // Display likes count
+                                .font(.custom("GothamMedium", size: 14))
+                                .foregroundColor(.black)
+
+                            Image(systemName: "heart.fill") // SF Symbol for heart
+                                .foregroundColor(Color(hex: "#F18757")) // Custom color
+                                .font(.system(size: 16)) // Adjust size as needed
+                        }
                     }
                 }
                 .padding(.horizontal)
