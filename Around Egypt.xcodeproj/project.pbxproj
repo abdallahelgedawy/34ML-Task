@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B85C6C192D00EA5B00B984CC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85C6C182D00EA5B00B984CC /* Constant.swift */; };
+		B85C6C262D00F30C00B984CC /* GothamRoundedBold_21016.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B85C6C232D00F30C00B984CC /* GothamRoundedBold_21016.ttf */; };
+		B85C6C272D00F30C00B984CC /* GothamRoundedLight_21020.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B85C6C242D00F30C00B984CC /* GothamRoundedLight_21020.ttf */; };
+		B85C6C282D00F30C00B984CC /* GothamRoundedBook_21018.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B85C6C252D00F30C00B984CC /* GothamRoundedBook_21018.ttf */; };
+		B85C6C2B2D00F54D00B984CC /* GothamRounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B85C6C2A2D00F54D00B984CC /* GothamRounded-Bold.otf */; };
+		B85C6C302D00F7D700B984CC /* Gotham-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B85C6C2C2D00F7D600B984CC /* Gotham-BookItalic.otf */; };
+		B85C6C312D00F7D700B984CC /* Gotham-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B85C6C2D2D00F7D600B984CC /* Gotham-Light.otf */; };
+		B85C6C322D00F7D700B984CC /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B85C6C2E2D00F7D700B984CC /* Gotham-Bold.otf */; };
+		B85C6C332D00F7D700B984CC /* Gotham-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = B85C6C2F2D00F7D700B984CC /* Gotham-Black.otf */; };
+		B85C6C352D00F88900B984CC /* Gotham-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = B85C6C342D00F88900B984CC /* Gotham-Thin.otf */; };
+		B85C6C372D00F91B00B984CC /* GothamMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B85C6C362D00F91B00B984CC /* GothamMedium.ttf */; };
 		B866CF5E2CFF976300C593FD /* Around_EgyptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B866CF5D2CFF976300C593FD /* Around_EgyptApp.swift */; };
-		B866CF602CFF976300C593FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B866CF5F2CFF976300C593FD /* ContentView.swift */; };
+		B866CF602CFF976300C593FD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B866CF5F2CFF976300C593FD /* HomeView.swift */; };
 		B866CF622CFF976400C593FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B866CF612CFF976400C593FD /* Assets.xcassets */; };
 		B866CF652CFF976400C593FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B866CF642CFF976400C593FD /* Preview Assets.xcassets */; };
 		B866CF672CFF976400C593FD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B866CF662CFF976400C593FD /* Persistence.swift */; };
@@ -36,9 +47,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B85C6C182D00EA5B00B984CC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		B85C6C232D00F30C00B984CC /* GothamRoundedBold_21016.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRoundedBold_21016.ttf; sourceTree = "<group>"; };
+		B85C6C242D00F30C00B984CC /* GothamRoundedLight_21020.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRoundedLight_21020.ttf; sourceTree = "<group>"; };
+		B85C6C252D00F30C00B984CC /* GothamRoundedBook_21018.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRoundedBook_21018.ttf; sourceTree = "<group>"; };
+		B85C6C292D00F37900B984CC /* Around-Egypt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Around-Egypt-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B85C6C2A2D00F54D00B984CC /* GothamRounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Bold.otf"; sourceTree = "<group>"; };
+		B85C6C2C2D00F7D600B984CC /* Gotham-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BookItalic.otf"; sourceTree = "<group>"; };
+		B85C6C2D2D00F7D600B984CC /* Gotham-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light.otf"; sourceTree = "<group>"; };
+		B85C6C2E2D00F7D700B984CC /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
+		B85C6C2F2D00F7D700B984CC /* Gotham-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Black.otf"; sourceTree = "<group>"; };
+		B85C6C342D00F88900B984CC /* Gotham-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Thin.otf"; sourceTree = "<group>"; };
+		B85C6C362D00F91B00B984CC /* GothamMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamMedium.ttf; sourceTree = "<group>"; };
 		B866CF5A2CFF976300C593FD /* Around Egypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Around Egypt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B866CF5D2CFF976300C593FD /* Around_EgyptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Around_EgyptApp.swift; sourceTree = "<group>"; };
-		B866CF5F2CFF976300C593FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B866CF5F2CFF976300C593FD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B866CF612CFF976400C593FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B866CF642CFF976400C593FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B866CF662CFF976400C593FD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -75,6 +98,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B85C6C172D00EA4900B984CC /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B85C6C182D00EA5B00B984CC /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B85C6C1A2D00EAC700B984CC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B85C6C1C2D00EADD00B984CC /* HomeView */,
+				B85C6C1B2D00EACF00B984CC /* HomeViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B85C6C1B2D00EACF00B984CC /* HomeViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeViewModel;
+			sourceTree = "<group>";
+		};
+		B85C6C1C2D00EADD00B984CC /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				B866CF5F2CFF976300C593FD /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		B85C6C1D2D00EAFB00B984CC /* Experience */ = {
+			isa = PBXGroup;
+			children = (
+				B85C6C1F2D00EB0F00B984CC /* ExperienceView */,
+				B85C6C1E2D00EB0400B984CC /* ExperienceViewModel */,
+			);
+			path = Experience;
+			sourceTree = "<group>";
+		};
+		B85C6C1E2D00EB0400B984CC /* ExperienceViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ExperienceViewModel;
+			sourceTree = "<group>";
+		};
+		B85C6C1F2D00EB0F00B984CC /* ExperienceView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ExperienceView;
+			sourceTree = "<group>";
+		};
+		B85C6C202D00EB2A00B984CC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B85C6C212D00EB3E00B984CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B85C6C222D00F2F100B984CC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B85C6C2A2D00F54D00B984CC /* GothamRounded-Bold.otf */,
+				B85C6C2F2D00F7D700B984CC /* Gotham-Black.otf */,
+				B85C6C362D00F91B00B984CC /* GothamMedium.ttf */,
+				B85C6C2E2D00F7D700B984CC /* Gotham-Bold.otf */,
+				B85C6C2C2D00F7D600B984CC /* Gotham-BookItalic.otf */,
+				B85C6C342D00F88900B984CC /* Gotham-Thin.otf */,
+				B85C6C2D2D00F7D600B984CC /* Gotham-Light.otf */,
+				B85C6C232D00F30C00B984CC /* GothamRoundedBold_21016.ttf */,
+				B85C6C252D00F30C00B984CC /* GothamRoundedBook_21018.ttf */,
+				B85C6C242D00F30C00B984CC /* GothamRoundedLight_21020.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		B866CF512CFF976300C593FD = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +207,14 @@
 		B866CF5C2CFF976300C593FD /* Around Egypt */ = {
 			isa = PBXGroup;
 			children = (
+				B85C6C292D00F37900B984CC /* Around-Egypt-Info.plist */,
+				B85C6C222D00F2F100B984CC /* Fonts */,
+				B85C6C212D00EB3E00B984CC /* Model */,
+				B85C6C202D00EB2A00B984CC /* Services */,
+				B85C6C1D2D00EAFB00B984CC /* Experience */,
+				B85C6C1A2D00EAC700B984CC /* Home */,
+				B85C6C172D00EA4900B984CC /* Constants */,
 				B866CF5D2CFF976300C593FD /* Around_EgyptApp.swift */,
-				B866CF5F2CFF976300C593FD /* ContentView.swift */,
 				B866CF612CFF976400C593FD /* Assets.xcassets */,
 				B866CF662CFF976400C593FD /* Persistence.swift */,
 				B866CF682CFF976400C593FD /* Around_Egypt.xcdatamodeld */,
@@ -238,7 +353,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B866CF652CFF976400C593FD /* Preview Assets.xcassets in Resources */,
+				B85C6C272D00F30C00B984CC /* GothamRoundedLight_21020.ttf in Resources */,
+				B85C6C302D00F7D700B984CC /* Gotham-BookItalic.otf in Resources */,
+				B85C6C332D00F7D700B984CC /* Gotham-Black.otf in Resources */,
+				B85C6C2B2D00F54D00B984CC /* GothamRounded-Bold.otf in Resources */,
+				B85C6C312D00F7D700B984CC /* Gotham-Light.otf in Resources */,
+				B85C6C352D00F88900B984CC /* Gotham-Thin.otf in Resources */,
+				B85C6C282D00F30C00B984CC /* GothamRoundedBook_21018.ttf in Resources */,
+				B85C6C322D00F7D700B984CC /* Gotham-Bold.otf in Resources */,
+				B85C6C372D00F91B00B984CC /* GothamMedium.ttf in Resources */,
 				B866CF622CFF976400C593FD /* Assets.xcassets in Resources */,
+				B85C6C262D00F30C00B984CC /* GothamRoundedBold_21016.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +389,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B866CF672CFF976400C593FD /* Persistence.swift in Sources */,
-				B866CF602CFF976300C593FD /* ContentView.swift in Sources */,
+				B866CF602CFF976300C593FD /* HomeView.swift in Sources */,
+				B85C6C192D00EA5B00B984CC /* Constant.swift in Sources */,
 				B866CF6A2CFF976400C593FD /* Around_Egypt.xcdatamodeld in Sources */,
 				B866CF5E2CFF976300C593FD /* Around_EgyptApp.swift in Sources */,
 			);
@@ -428,6 +554,8 @@
 				DEVELOPMENT_TEAM = AK5FR4CXB6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Around-Egypt-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,6 +585,8 @@
 				DEVELOPMENT_TEAM = AK5FR4CXB6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Around-Egypt-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
