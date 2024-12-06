@@ -6,3 +6,6 @@
 //
 
 import Foundation
+class Constant {
+    static let base_URL = "https://aroundegypt.34ml.com/"
+}

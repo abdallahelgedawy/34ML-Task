@@ -1,41 +1,61 @@
-//
-//  Around_EgyptUITests.swift
-//  Around EgyptUITests
-//
-//  Created by Abdallah Elgedawy on 03/12/2024.
-//
-
 import XCTest
 
 final class Around_EgyptUITests: XCTestCase {
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
-        // In UI tests it is usually best to stop immediately when a failure occurs.
+        // Set up the initial state for UI tests
         continueAfterFailure = false
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        // Clean up after each test
     }
 
-    func testExample() throws {
-        // UI tests must launch the application that they test.
+    // Test launching the app and navigating to a specific screen
+    func testLaunchAndNavigate() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        // Verify the main screen loaded by checking a known element
+        let titleLabel = app.staticTexts["Welcome"]  // Replace with actual identifier of the home screen title
+        XCTAssertTrue(titleLabel.exists, "Home screen title should be displayed.")
+        
+    }
+
+    // Test filling a text field and tapping a button to perform a search
+    func testSearchFunctionality() throws {
         let app = XCUIApplication()
         app.launch()
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        // Ensure the search field is present, but since it's not a tab, use textFields or other UI elements
+        let searchField = app.textFields["SearchForExperiences"]  // Use the identifier you set
+        XCTAssertTrue(searchField.exists, "Search field should be visible.")
+        
+        // Tap the search field to activate it
+        searchField.tap()
+        searchField.typeText("Abu Simbel Temples")
+        
+        // Verify that results are displayed after searching (ensure your UI shows something related to the search)
+        let searchResult = app.staticTexts["Abu Simbel Temples"]  // This depends on what your app displays
+        XCTAssertTrue(searchResult.exists, "Search results should display.")
     }
 
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
-        }
+    
+    // Test navigation from a list of experiences to an experience detail view
+    func testNavigateToExperienceDetail() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        // Let's say you're targeting an experience with ID "1"
+        let experienceImage = app.staticTexts["Experience_7f209d18-36a1-44d5-a0ed-b7eddfad48d6"]  // Unique identifier for the first experience
+        XCTAssertTrue(experienceImage.waitForExistence(timeout: 5), "Experience image should exist.")
+        
+        // Tap the image to navigate to the experience detail screen
+        experienceImage.tap()
+        
+        // Verify that the detail screen is displayed (e.g., check for a specific element on the detail screen)
+        let detailScreenTitle = app.staticTexts["Experience_7f209d18-36a1-44d5-a0ed-b7eddfad48d6"]  // Adjust this to your actual detail screen element
+        XCTAssertTrue(detailScreenTitle.waitForExistence(timeout: 5), "Detail screen should appear.")
     }
+
 }
