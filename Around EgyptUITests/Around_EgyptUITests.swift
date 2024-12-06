@@ -55,7 +55,7 @@ final class Around_EgyptUITests: XCTestCase {
         
         // Verify that the detail screen is displayed (e.g., check for a specific element on the detail screen)
         let detailScreenTitle = app.staticTexts["Experience_7f209d18-36a1-44d5-a0ed-b7eddfad48d6"]  // Adjust this to your actual detail screen element
-        XCTAssertTrue(detailScreenTitle.waitForExistence(timeout: 5), "Detail screen should appear.")
+        XCTAssertTrue(detailScreenTitle.waitForExistence(timeout: 5), "Detail screen should appear")
     }
 
 }
